@@ -1,12 +1,12 @@
 
 
-Today we will build a capacitive touch sensor. The sensor will be combined with a servo motor to control the positioning in perspective of an imaginary animal. When the antenna of the sensor is soldered to a cannula, it can be perfectly used for lick detection and direct reward delivery via the extended sensor (would require loop triggering of a solenoid valve or syringe pump via a DAQ or similar).
+Today we will build a capacitive touch sensor. The sensor will be combined with a servo motor to control the positioning in perspective of an imaginary animal. When the antenna of the sensor is soldered to a cannula, it can be perfectly used for touch/lick detection and direct reward delivery via the extended sensor (would require loop triggering of a solenoid valve or syringe pump via a DAQ or similar).
 
 In this part of the course, the aim is also to build the device as an independent unit. We will therefore use serial communication for proof of principle and debugging only. The device will be able to communicate via TTL (transistor-transistor logic) signals from BNC ports. This allows for communication with a vast number of other devices and DAQs while avoiding integration hell.
 
-Combining a capacitive sensor and the control of a servo motor can be a difficult task, due to running computational tasks in parallel. Luckily, Arduino provides a hardware interrupt to facilitate parallel computing. We will learn to implement this function for a reliable function.
+Combining a capacitive sensor and the control of a servo motor can be a difficult task, due to running computational tasks in parallel. Luckily, Arduino provides a hardware interrupt to facilitate parallel computing. We will learn to implement this function for creating a reliable machine.
 
-We will go through 5 increasingly complex coding blocks and circuit diagrams:
+Together, we will go through 5 increasingly complex coding blocks and circuit diagrams:
 
 - 01_CapacitiveSensor_SerialCom (Printing raw capacitance via serial communication)
 - 02_CapacitiveSensor_Thresh (Adding a threshold for touch induced triggering)
