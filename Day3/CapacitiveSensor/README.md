@@ -40,7 +40,7 @@ Capacitive sensor library examples:
 
 Servo library:
 
-https://www.arduino.cc/reference/en/libraries/servo/
+- https://www.arduino.cc/reference/en/libraries/servo/
 
 Servo Library original source (GitHub):
 
